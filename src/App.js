@@ -77,6 +77,7 @@ export default function App() {
           alert(
             "Por favor, elija una fecha de salida posterior a la de entrada"
           );
+           setDateOut("");
 
           setFilteredHotels(copyHotelsData);
         }
